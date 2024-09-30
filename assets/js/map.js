@@ -64,7 +64,7 @@ var tooltipsLayer = L.layerGroup();
 
 var globalData;
 
-fetch("https://script.google.com/macros/s/AKfycbzRqRi_s1oWswewaOgwCEiH6izX5y-3yCARwe1BZIqfmX5qC6VA_vpDchgYjF95FgdgIQ/exec")
+fetch("https://script.google.com/macros/s/AKfycbxrDIpuVIOCG57dq-V9NchdlBz0J_tusNAO1zDCMDN_pAUOQfbXKvl2F54R70uKWHV-/exec")
   .then((response) => {
     if (!response.ok) {
       throw new Error("La requête a échoué avec le statut " + response.status);
